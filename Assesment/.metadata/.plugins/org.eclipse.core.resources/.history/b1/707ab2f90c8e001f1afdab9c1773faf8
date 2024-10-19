@@ -1,0 +1,28 @@
+package com.app.service;
+
+import java.util.Map;
+
+import javax.transaction.Transactional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.app.dao.ProductRepository;
+@Service
+@Transactional
+public class InventoryServiceImpl implements InventoryService{
+
+	@Autowired
+	private ProductRepository productRepository;
+	
+	@Override
+	public void restockItems(Map<Long, Integer> restockQuantitites) {
+		
+	}
+
+	@Override
+	public void checkAndRestock() {
+		
+	}
+	
+}

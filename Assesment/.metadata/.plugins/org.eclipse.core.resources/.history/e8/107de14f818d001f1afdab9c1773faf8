@@ -1,0 +1,22 @@
+package com.app.entities;
+
+import javax.persistence.Entity;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Entity
+@Getter
+@Setter    // i have use lombok annotations
+public class User {
+	
+	private Long id;
+	
+	private String name;
+	
+	private String email;
+	
+	// one user having multiple orders
+	// One ---> many 
+	private 
+}

@@ -1,0 +1,23 @@
+package com.app.service;
+
+import java.util.Map;
+
+import javax.transaction.Transactional;
+
+import org.springframework.stereotype.Service;
+@Service
+@Transactional
+public class InventoryServiceImpl implements InventoryService{
+
+	
+	@Override
+	public void restockItems(Map<Long, Integer> restockQuantitites) {
+		
+	}
+
+	@Override
+	public void checkAndRestock() {
+		
+	}
+	
+}
